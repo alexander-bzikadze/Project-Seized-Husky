@@ -1,5 +1,7 @@
 #pragma once
 
+#include "../Prelude.hpp"
+
 template <typename f, typename s>
 struct Pair {
 	using first = f;
@@ -163,31 +165,6 @@ struct intersperse<a, List<b>> {
 template <typename a, typename ...b>
 struct intersperse<a, List<b...>> {
 	using val = typename concat2<List<typename List<b...>::Head, a>, typename intersperse<a, typename List<b...>::Tail>::val>::val;
-};
-
-
-
-template <typename list>
-struct concat;
-
-template <typename a>
-struct concat<List<a>> {
-	using val = a;
-};
-
-template <typename ...a>
-struct concat<List<a...>> {
-	using val = typename conc<typename List<a...>::Head, typename concat<typename List<a...>::Tail>::val>::val;
-};
-
-
-
-template <typename list, typename list_of_list>
-struct intercalate;
-
-template <typename a, typename ...b>
-struct intercalate<a, List<b...>> {
-	using val = typename concat<typename intersperse<a, List<b...>>::val>::val;
 };
 
 
