@@ -1,0 +1,15 @@
+#pragma once
+
+#include "Eq/Eq.hpp"
+#include "Eq/Bool.hpp"
+#include "Eq/Char.hpp"
+#include "Eq/Eighter.hpp"
+#include "Eq/Maybe.hpp"
+#include "Eq/Int.hpp"
+#include "Eq/Int8.hpp"
+#include "Eq/Int16.hpp"
+#include "Eq/Int32.hpp"
+#include "Eq/Int64.hpp"
+#include "Eq/Ordering.hpp"
+#include "Eq/Tuple.hpp"
+#include "Eq/List.hpp"

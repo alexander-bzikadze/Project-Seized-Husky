@@ -2,7 +2,10 @@
 
 #include "Prelude/Bool.hpp"
 #include "Prelude/Maybe.hpp"
-#include "Prelude/Eighter.hpp"
+#include "Prelude/Either.hpp"
 #include "Prelude/Ordering.hpp"
 #include "Prelude/Char.hpp"
 #include "Prelude/Tuple.hpp"
+#include "Prelude/Numerals.hpp"
+#include "Prelude/Eq.hpp"
+#include "Prelude/List.hpp"

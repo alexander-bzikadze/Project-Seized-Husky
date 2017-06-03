@@ -33,3 +33,11 @@ struct cnot<cbool<a>> {
 };
 
 using otherwise = ctrue;
+
+template <typename cb1, typename cb2>
+struct cxor;
+
+template <bool a, bool b>
+struct cxor<cbool<a>, cbool<b>> {
+	using val = cbool<a ^ b>;
+};

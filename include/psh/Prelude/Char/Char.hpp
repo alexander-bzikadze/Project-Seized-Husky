@@ -5,7 +5,12 @@ struct cchar {
 	constexpr static char val = s;
 };
 
-using cc  = cchar< ' ' >;
+template <char s>
+using cc = cchar<s>;
+
+#define cc(s) cc<s>
+
+using ccSP = cchar< ' ' >; // ' '
 using ccEM = cchar< '!' >; // !
 using ccDQ = cchar< '\"' >; // "
 using ccSH = cchar< '#' >; // #

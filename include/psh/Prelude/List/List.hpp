@@ -1,12 +1,5 @@
 #pragma once
 
-#include "../Prelude.hpp"
-
-template <typename f, typename s>
-struct Pair {
-	using first = f;
-	using second = s;
-};
 
 template <typename ...Args>
 struct List;
