@@ -9,4 +9,4 @@ struct Leq<cc<ord_1>, cc<ord_2>> {
 	using val = cbool<ord_1 <= ord_2>;
 };
 
-}
+} // end of namespace Ord

@@ -1,5 +1,8 @@
 #pragma once
 
+#include "Eq.hpp"
+#include "../Types.hpp"
+
 namespace Eq {
 
 template <typename eq_1, typename eq_2>
@@ -22,4 +25,4 @@ struct equals<Left<eq_1>, Right<eq_2>> {
 	using val = cfalse;
 };
 
-} // end of namespace Eq::mEq
+} // end of namespace Eq

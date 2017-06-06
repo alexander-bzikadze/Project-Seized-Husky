@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Eq.hpp"
-#include "../Ordering.hpp"
+#include "../Types.hpp"
 
 namespace Eq {
 
@@ -50,4 +50,4 @@ struct equals<GT, EQ> {
 	using val = cfalse;
 };
 
-} // end of namespace Eq::mEq
+} // end of namespace Eq

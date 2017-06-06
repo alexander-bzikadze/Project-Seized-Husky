@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Eq.hpp"
-#include "../Maybe.hpp"
+#include "../Types.hpp"
 
 namespace Eq {
 
@@ -25,5 +25,5 @@ struct equals<Just<eq_1>, Just<eq_2>> {
 	using val = Eq::equals<eq_1, eq_2>;
 };
 
-} // end of namespace Eq::mEq
+} // end of namespace Eq
 

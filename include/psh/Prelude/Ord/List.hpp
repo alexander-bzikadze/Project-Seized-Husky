@@ -19,4 +19,4 @@ struct Leq<List<>, List<ord_1...>> {
 	using val = cfalse;
 };
 
-}
+} // end of namespace Ord

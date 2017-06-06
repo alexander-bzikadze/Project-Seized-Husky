@@ -49,4 +49,4 @@ struct Leq<LT, LT> {
 	using val = ctrue;
 };
 
-}
+} // end of namespace Ord

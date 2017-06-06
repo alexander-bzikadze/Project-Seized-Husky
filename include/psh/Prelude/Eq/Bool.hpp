@@ -1,6 +1,7 @@
 #pragma once
+
 #include "Eq.hpp"
-#include "../Bool.hpp"
+#include "../Types.hpp"
 
 namespace Eq {
 
@@ -9,4 +10,4 @@ struct equals<cbool<b1>, cbool<b2>> {
 	using val = cbool<!(b1 ^ b2)>;
 };
 
-} // end of namespace Eq::mEq
+} // end of namespace Eq

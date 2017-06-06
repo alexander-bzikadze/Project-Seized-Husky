@@ -9,4 +9,4 @@ struct Leq<Pair<a_1, b_1>, Pair<a_2, b_2>> {
 	using val = typename If_then_else<typename Eq::equals<a_1, a_2>::val, typename Ord::Leq<b_1, b_2>::val, typename Ord::Leq<a_1, a_2>::val>::val;
 };
 
-}
+} // end of namespace Ord

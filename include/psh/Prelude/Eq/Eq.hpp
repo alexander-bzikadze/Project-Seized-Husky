@@ -1,6 +1,7 @@
 #pragma once
 
-#include "../Bool.hpp"
+#include "Eq.hpp"
+#include "../Types.hpp"
 
 namespace Eq { 
 

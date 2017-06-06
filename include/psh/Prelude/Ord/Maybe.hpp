@@ -24,4 +24,4 @@ struct Leq<Nothing, Nothing> {
 	using val = ctrue;
 };
 
-}
+} // end of namespace Ord

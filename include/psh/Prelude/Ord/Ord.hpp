@@ -52,4 +52,4 @@ struct min {
 	using val = typename If_then_else<typename Lt<ord_1, ord_2>::val, ord_1, ord_2>::val;
 };
 
-}
+} // end of namespace Ord

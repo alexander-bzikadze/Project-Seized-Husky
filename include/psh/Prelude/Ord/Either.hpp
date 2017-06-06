@@ -24,4 +24,4 @@ struct Leq<Right<ord_1>, Right<ord_2>> {
 	using val = typename Ord::Leq<ord_1, ord_2>::val;
 };
 
-}
+} // end of namespace Ord

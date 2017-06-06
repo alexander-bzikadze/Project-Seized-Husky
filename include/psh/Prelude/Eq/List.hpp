@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Eq.hpp"
-#include "../List.hpp"
+#include "../Types.hpp"
 
 namespace Eq {
 
@@ -15,4 +15,4 @@ struct equals<List<a_1, args_1...>, List<a_2, args_2...>> {
 	using val = typename cand<typename Eq::equals<a_1, a_2>::val, typename Eq::equals<List<args_1...>, List<args_2...>>::val>::val;
 };
 
-} // end of namespace Eq::mEq
+} // end of namespace Eq
