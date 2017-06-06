@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Bool.hpp"
+#include "../Types.hpp"
 
 template <typename cbool, typename then, typename celse>
 struct If_then_else;
