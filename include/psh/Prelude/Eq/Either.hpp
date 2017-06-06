@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Eq { namespace mEq {
+namespace Eq {
 
 template <typename eq_1, typename eq_2>
 struct equals<Right<eq_1>, Right<eq_2>> {
@@ -22,4 +22,4 @@ struct equals<Left<eq_1>, Right<eq_2>> {
 	using val = cfalse;
 };
 
-}} // end of namespace Eq::mEq
+} // end of namespace Eq::mEq

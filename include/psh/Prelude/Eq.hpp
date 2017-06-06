@@ -3,7 +3,7 @@
 #include "Eq/Eq.hpp"
 #include "Eq/Bool.hpp"
 #include "Eq/Char.hpp"
-#include "Eq/Eighter.hpp"
+#include "Eq/Either.hpp"
 #include "Eq/Maybe.hpp"
 #include "Eq/Int.hpp"
 #include "Eq/Int8.hpp"

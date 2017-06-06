@@ -9,3 +9,5 @@
 #include "Prelude/Numerals.hpp"
 #include "Prelude/Eq.hpp"
 #include "Prelude/List.hpp"
+#include "Prelude/If_then_else.hpp"
+#include "Prelude/Ord.hpp"

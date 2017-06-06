@@ -1,0 +1,15 @@
+#pragma once
+
+#include "Ord/Ord.hpp"
+#include "Ord/Bool.hpp"
+#include "Ord/Char.hpp"
+#include "Ord/Either.hpp"
+#include "Ord/Maybe.hpp"
+#include "Ord/Int.hpp"
+#include "Ord/Int8.hpp"
+#include "Ord/Int16.hpp"
+#include "Ord/Int32.hpp"
+#include "Ord/Int64.hpp"
+#include "Ord/Ordering.hpp"
+#include "Ord/Tuple.hpp"
+#include "Ord/List.hpp"

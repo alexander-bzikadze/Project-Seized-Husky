@@ -3,7 +3,7 @@
 #include "Eq.hpp"
 #include "../Ordering.hpp"
 
-namespace Eq { namespace mEq {
+namespace Eq {
 
 template <>
 struct equals<LT, LT> {
@@ -50,4 +50,4 @@ struct equals<GT, EQ> {
 	using val = cfalse;
 };
 
-}} // end of namespace Eq::mEq
+} // end of namespace Eq::mEq
